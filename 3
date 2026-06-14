@@ -1,0 +1,10 @@
+A = int(input("Введите целое число A: "))
+B = int(input("Введите целое число B (больше A): "))
+# for для перебора чисел
+even_numbers = []
+for num in range(A, B + 1):
+    if num % 2 == 0:
+        even_numbers.append(str(num))
+
+print("Четные числа на отрезке:", " ".join(even_numbers))
+Критерии оценки:
